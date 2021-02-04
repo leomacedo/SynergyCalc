@@ -122,7 +122,7 @@ namespace SynergyCalculation
             if (maxLevel == 30) { tipo = "Relic 5*"; }
             else if (maxLevel == 35) { tipo = "Relic 6*"; }
             else if (maxLevel == 40) { tipo = "Relic 7*"; }
-            else { tipo = "Relic Lendária"; }
+            else { tipo = "Legend Relic"; }
 
             /*switch (maxLevel)
             {
@@ -137,12 +137,12 @@ namespace SynergyCalculation
             // Diretorio do arquivo texto
             // string diretorio = "D:\\Leonardo\\FFRK\\DataSave\\zListaResultados.txt";
 
-            if (File.Exists("zListaResultados.txt"))
+            if (File.Exists("zResults.txt"))
             {
                 StreamWriter arq;
                 arq = File.AppendText("zListaResultados.txt");
                 //arq.WriteLine("Reliquia: " + relic + " || S.Min: " + minStat + " || S.Max: " + maxStat + " || Level: " + currentLevel + " || Tipo: " + tipo + " || ---> Synergy: " + RS + " <---");
-                arq.WriteLine("Reliquia: " + relic + " || Level: " + currentLevel + " || " + tipo + " || ---> Synergy: " + RS + " <---");
+                arq.WriteLine("Relic: " + relic + " || Level: " + currentLevel + " || " + tipo + " || ---> Synergy: " + RS + " <---");
                 arq.Close();
                 //Comando para abrir o arquivo diretamente do sistema
                 //System.Diagnostics.Process.Start("notepad", diretorio);
@@ -151,11 +151,11 @@ namespace SynergyCalculation
             {
                 // Criando o arquivo texto
                 StreamWriter arq;
-                arq = File.CreateText("zListaResultados.txt");
+                arq = File.CreateText("zResults.txt");
                 //Titulo
-                arq.WriteLine("Lista de Resultados:");
+                arq.WriteLine("Results List");
                 //arq.WriteLine("Reliquia: " + relic + " || S.Min: " + minStat + " || S.Max: " + maxStat + " || Level: " + currentLevel + " || Tipo: " + tipo + " || ---> Synergy: " + RS + " <---s");
-                arq.WriteLine("Reliquia: " + relic + " || Level: " + currentLevel + " || " + tipo + " || ---> Synergy: " + RS + " <---");
+                arq.WriteLine("Relic: " + relic + " || Level: " + currentLevel + " || " + tipo + " || ---> Synergy: " + RS + " <---");
                 arq.Close();
                 //Comando para abrir o arquivo diretamente do sistema
                 //System.Diagnostics.Process.Start("notepad", diretorio);

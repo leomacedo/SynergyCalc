@@ -18,7 +18,7 @@ namespace SynergyCalculation
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frmSynergyCalculation());
-            Process.Start("notepad", "zListaResultados.txt");
+            Process.Start("notepad", "zResults.txt");
         }
     }
 }
