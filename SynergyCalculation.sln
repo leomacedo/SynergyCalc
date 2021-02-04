@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynergyCalculation", "SynergyCalculation\SynergyCalculation.csproj", "{6A3D23D0-82B8-4B83-818A-847B18DB0890}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A3D23D0-82B8-4B83-818A-847B18DB0890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3D23D0-82B8-4B83-818A-847B18DB0890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3D23D0-82B8-4B83-818A-847B18DB0890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3D23D0-82B8-4B83-818A-847B18DB0890}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {968C51BC-732A-4FE3-8128-FB83E84411A0}
+	EndGlobalSection
+EndGlobal
