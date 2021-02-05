@@ -59,18 +59,18 @@
             // btnCalcular
             // 
             this.btnCalcular.Location = new System.Drawing.Point(63, 251);
-            this.btnCalcular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCalcular.Margin = new System.Windows.Forms.Padding(4);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(377, 71);
             this.btnCalcular.TabIndex = 15;
-            this.btnCalcular.Text = "Calcular";
+            this.btnCalcular.Text = "Calculate";
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.Button1_Click);
             // 
             // txtLvlMax
             // 
             this.txtLvlMax.Location = new System.Drawing.Point(460, 345);
-            this.txtLvlMax.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLvlMax.Margin = new System.Windows.Forms.Padding(4);
             this.txtLvlMax.Name = "txtLvlMax";
             this.txtLvlMax.Size = new System.Drawing.Size(32, 22);
             this.txtLvlMax.TabIndex = 0;
@@ -82,7 +82,7 @@
             // 
             this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.Location = new System.Drawing.Point(360, 75);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(79, 51);
@@ -113,27 +113,27 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(40, 167);
+            this.label3.Location = new System.Drawing.Point(74, 167);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(78, 17);
+            this.label3.Size = new System.Drawing.Size(42, 17);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Level Atual";
+            this.label3.Text = "Level";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(279, 98);
+            this.label5.Location = new System.Drawing.Point(294, 98);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 17);
+            this.label5.Size = new System.Drawing.Size(48, 17);
             this.label5.TabIndex = 0;
-            this.label5.Text = "Resultado";
+            this.label5.Text = "Result";
             // 
             // btn20
             // 
             this.btn20.Location = new System.Drawing.Point(195, 162);
-            this.btn20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn20.Margin = new System.Windows.Forms.Padding(4);
             this.btn20.Name = "btn20";
             this.btn20.Size = new System.Drawing.Size(36, 25);
             this.btn20.TabIndex = 5;
@@ -145,7 +145,7 @@
             // btn25
             // 
             this.btn25.Location = new System.Drawing.Point(239, 162);
-            this.btn25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn25.Margin = new System.Windows.Forms.Padding(4);
             this.btn25.Name = "btn25";
             this.btn25.Size = new System.Drawing.Size(36, 25);
             this.btn25.TabIndex = 6;
@@ -157,7 +157,7 @@
             // btn30
             // 
             this.btn30.Location = new System.Drawing.Point(283, 162);
-            this.btn30.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn30.Margin = new System.Windows.Forms.Padding(4);
             this.btn30.Name = "btn30";
             this.btn30.Size = new System.Drawing.Size(36, 25);
             this.btn30.TabIndex = 7;
@@ -169,7 +169,7 @@
             // btn35
             // 
             this.btn35.Location = new System.Drawing.Point(327, 162);
-            this.btn35.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn35.Margin = new System.Windows.Forms.Padding(4);
             this.btn35.Name = "btn35";
             this.btn35.Size = new System.Drawing.Size(36, 25);
             this.btn35.TabIndex = 8;
@@ -181,7 +181,7 @@
             // btn50
             // 
             this.btn50.Location = new System.Drawing.Point(415, 162);
-            this.btn50.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn50.Margin = new System.Windows.Forms.Padding(4);
             this.btn50.Name = "btn50";
             this.btn50.Size = new System.Drawing.Size(36, 25);
             this.btn50.TabIndex = 10;
@@ -194,7 +194,7 @@
             // 
             this.btnNormal6.AutoSize = true;
             this.btnNormal6.Location = new System.Drawing.Point(148, 209);
-            this.btnNormal6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNormal6.Margin = new System.Windows.Forms.Padding(4);
             this.btnNormal6.Name = "btnNormal6";
             this.btnNormal6.Size = new System.Drawing.Size(78, 21);
             this.btnNormal6.TabIndex = 12;
@@ -206,11 +206,11 @@
             // 
             this.btnLendaria.AutoSize = true;
             this.btnLendaria.Location = new System.Drawing.Point(329, 209);
-            this.btnLendaria.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLendaria.Margin = new System.Windows.Forms.Padding(4);
             this.btnLendaria.Name = "btnLendaria";
-            this.btnLendaria.Size = new System.Drawing.Size(120, 21);
+            this.btnLendaria.Size = new System.Drawing.Size(112, 21);
             this.btnLendaria.TabIndex = 14;
-            this.btnLendaria.Text = "Relic Lendária";
+            this.btnLendaria.Text = "Legend Relic";
             this.btnLendaria.UseVisualStyleBackColor = true;
             this.btnLendaria.CheckedChanged += new System.EventHandler(this.BtnLendaria_CheckedChanged);
             // 
@@ -219,7 +219,7 @@
             this.numStatMin.AutoSize = true;
             this.numStatMin.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.numStatMin.Location = new System.Drawing.Point(128, 66);
-            this.numStatMin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numStatMin.Margin = new System.Windows.Forms.Padding(4);
             this.numStatMin.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -236,7 +236,7 @@
             // 
             this.numStatMax.AutoSize = true;
             this.numStatMax.Location = new System.Drawing.Point(128, 114);
-            this.numStatMax.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numStatMax.Margin = new System.Windows.Forms.Padding(4);
             this.numStatMax.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -258,7 +258,7 @@
             0,
             0});
             this.numLvlAtual.Location = new System.Drawing.Point(128, 162);
-            this.numLvlAtual.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numLvlAtual.Margin = new System.Windows.Forms.Padding(4);
             this.numLvlAtual.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -279,7 +279,7 @@
             // txtReliquia
             // 
             this.txtReliquia.Location = new System.Drawing.Point(127, 18);
-            this.txtReliquia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtReliquia.Margin = new System.Windows.Forms.Padding(4);
             this.txtReliquia.Name = "txtReliquia";
             this.txtReliquia.Size = new System.Drawing.Size(341, 22);
             this.txtReliquia.TabIndex = 1;
@@ -289,12 +289,12 @@
             // lblReliquia
             // 
             this.lblReliquia.AutoSize = true;
-            this.lblReliquia.Location = new System.Drawing.Point(59, 22);
+            this.lblReliquia.Location = new System.Drawing.Point(77, 21);
             this.lblReliquia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblReliquia.Name = "lblReliquia";
-            this.lblReliquia.Size = new System.Drawing.Size(59, 17);
+            this.lblReliquia.Size = new System.Drawing.Size(39, 17);
             this.lblReliquia.TabIndex = 0;
-            this.lblReliquia.Text = "Reliquia";
+            this.lblReliquia.Text = "Relic";
             // 
             // label4
             // 
@@ -304,16 +304,16 @@
             this.label4.Location = new System.Drawing.Point(40, 337);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(366, 34);
+            this.label4.Size = new System.Drawing.Size(398, 34);
             this.label4.TabIndex = 0;
-            this.label4.Text = "OBS: Veja o Max(Combined) no site oficial para o\nStatus Lvl Máx";
+            this.label4.Text = "NOTE: See Max (Combined) on the official website for\r\nMax Lvl Status";
             // 
             // btnNormal5
             // 
             this.btnNormal5.AutoSize = true;
             this.btnNormal5.Checked = true;
             this.btnNormal5.Location = new System.Drawing.Point(57, 209);
-            this.btnNormal5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNormal5.Margin = new System.Windows.Forms.Padding(4);
             this.btnNormal5.Name = "btnNormal5";
             this.btnNormal5.Size = new System.Drawing.Size(78, 21);
             this.btnNormal5.TabIndex = 11;
@@ -326,7 +326,7 @@
             // 
             this.btnNormal7.AutoSize = true;
             this.btnNormal7.Location = new System.Drawing.Point(239, 209);
-            this.btnNormal7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNormal7.Margin = new System.Windows.Forms.Padding(4);
             this.btnNormal7.Name = "btnNormal7";
             this.btnNormal7.Size = new System.Drawing.Size(78, 21);
             this.btnNormal7.TabIndex = 13;
@@ -337,7 +337,7 @@
             // btn40
             // 
             this.btn40.Location = new System.Drawing.Point(371, 162);
-            this.btn40.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn40.Margin = new System.Windows.Forms.Padding(4);
             this.btn40.Name = "btn40";
             this.btn40.Size = new System.Drawing.Size(36, 25);
             this.btn40.TabIndex = 9;
@@ -376,7 +376,7 @@
             this.Controls.Add(this.txtLvlMax);
             this.Controls.Add(this.btnCalcular);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "frmSynergyCalculation";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
