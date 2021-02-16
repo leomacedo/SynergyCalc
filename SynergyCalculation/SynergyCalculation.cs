@@ -140,7 +140,7 @@ namespace SynergyCalculation
             if (File.Exists("zResults.txt"))
             {
                 StreamWriter arq;
-                arq = File.AppendText("zListaResultados.txt");
+                arq = File.AppendText("zResults.txt");
                 //arq.WriteLine("Reliquia: " + relic + " || S.Min: " + minStat + " || S.Max: " + maxStat + " || Level: " + currentLevel + " || Tipo: " + tipo + " || ---> Synergy: " + RS + " <---");
                 arq.WriteLine("Relic: " + relic + " || Level: " + currentLevel + " || " + tipo + " || ---> Synergy: " + RS + " <---");
                 arq.Close();
