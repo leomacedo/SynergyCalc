@@ -122,7 +122,7 @@ namespace SynergyCalculation
             if (maxLevel == 30) { tipo = "Relic 5*"; }
             else if (maxLevel == 35) { tipo = "Relic 6*"; }
             else if (maxLevel == 40) { tipo = "Relic 7*"; }
-            else { tipo = "Legend Relic"; }
+            else if (maxLevel == 50) { tipo = "Legend Relic"; }
 
             /*switch (maxLevel)
             {
@@ -141,7 +141,6 @@ namespace SynergyCalculation
             {
                 StreamWriter arq;
                 arq = File.AppendText("zResults.txt");
-                //arq.WriteLine("Reliquia: " + relic + " || S.Min: " + minStat + " || S.Max: " + maxStat + " || Level: " + currentLevel + " || Tipo: " + tipo + " || ---> Synergy: " + RS + " <---");
                 arq.WriteLine("Relic: " + relic + " || Level: " + currentLevel + " || " + tipo + " || ---> Synergy: " + RS + " <---");
                 arq.Close();
                 //Comando para abrir o arquivo diretamente do sistema
@@ -154,7 +153,6 @@ namespace SynergyCalculation
                 arq = File.CreateText("zResults.txt");
                 //Titulo
                 arq.WriteLine("Results List");
-                //arq.WriteLine("Reliquia: " + relic + " || S.Min: " + minStat + " || S.Max: " + maxStat + " || Level: " + currentLevel + " || Tipo: " + tipo + " || ---> Synergy: " + RS + " <---s");
                 arq.WriteLine("Relic: " + relic + " || Level: " + currentLevel + " || " + tipo + " || ---> Synergy: " + RS + " <---");
                 arq.Close();
                 //Comando para abrir o arquivo diretamente do sistema
